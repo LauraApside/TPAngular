@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularprojet';
+
+  public addition(chiffre1:number, chiffre2:number): number {
+    return chiffre1 + chiffre2;
+  }
 }
